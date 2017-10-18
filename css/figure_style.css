@@ -1,0 +1,164 @@
+/*Color Paletter
+#22333B - Bluish Gray
+#F0D797 - Goldish Yellow
+#8D99AE - light blue
+#EDF2F4 -Blue/White
+*/
+
+/*Global styles
+--------------------------*/
+
+html{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+
+.content-wrap{
+  max-width: 1250px; /*If width doesn't exceed 950 then the text need to fit in 100% of image*/
+  margin: 0 auto;
+  padding:60px 50px;
+  overflow: auto;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.col-narrow{
+  width: 50%;
+  min-height: 400px;
+  float: left;
+  text-align: center;
+  
+}
+.col-wide{
+  width: 50%;
+  min-height: 400px;
+  float: left;
+  padding-top: 50;
+  text-align: center;
+  position: relative;
+
+}
+
+.btn-link{
+  background-color:#F0D797;
+  text-decoration: none;
+  border-radius: 4%;
+}
+
+
+
+/*Header and Footer
+--------------------------*/
+
+.head-image{
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+h1{
+  text-align: center;
+  margin: 0;
+  padding-bottom: 50px
+ 
+}
+
+/*Header*/
+.page-intro{
+  background-color: #22333B;
+  
+  
+}
+.page-intro p, .page-intro h1{
+  color: beige
+}
+  
+
+/* Navigation
+--------------------------*/
+
+.menu{
+  text-align: center;
+  font-size: 0;
+  padding: 10;
+  margin: 6;
+  position:fixed;
+  top: 0;
+  width:100%;
+  background-color:white;
+  margin: 0; 
+  z-index: 100;
+}
+  
+.menu a{
+  display:inline-block;
+  font-family: sans-serif;
+  color: #22333B;
+  font-size: 20px;
+  width: 150px;
+  margin: 0px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  
+}
+
+
+
+
+/*Recent Post
+-------------------------*/
+.recent-post-section{
+  padding-top: 80px;
+  background-color: whitesmoke;
+  
+  
+}
+.column-wrap{
+  text-align: center;
+}
+
+.recent-post-link-content{
+  display: inline-block;
+  margin: 0px 40px 40px 40px;
+}
+
+.recent-post-link-content p, 
+.recent-post-link-content h2{
+  max-width: 300px;
+  text-align: center;
+}
+
+/*chapter section 
+--------------------------*/
+
+.chapter-section{
+ 
+  color: 
+}
+
+.col-wide .btn-link{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.chapter-section .col-wide{
+   
+}
+
+
+
+
+/*Footer
+--------------------------*/
+.contact-section{
+  background-color: green;
+}
+
+
+
+
