@@ -39,15 +39,50 @@ body{
   padding-top: 50;
   text-align: center;
   position: relative;
+  
 
 }
 
 .btn-link{
-  background-color:#F0D797;
   text-decoration: none;
   border-radius: 4%;
+  border: #56c9e9 solid 3px;
+  color: #F0D797;
+  font-size: 18px;
+  padding: 5px;
 }
 
+@font-face {
+    font-family: 'Elianto';
+    src: url('../fonts/Elianto/elianto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Elianto/elianto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+P{
+   font-family: 'Roboto Condensed', sans-serif;
+}
+h2{
+   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 32px;
+}
+h1{
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+  padding-bottom: 50px;
+  font-family: 'Elianto', 'Roboto Condensed', sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+hr{
+  width: 20%;
+  margin-left: 0;
+  margin-top: 0; /*h1 heading also needs to be 0*/
+  text-align: left;
+}
 
 
 /*Header and Footer
@@ -59,23 +94,24 @@ body{
   max-width: 100%;
 }
 
-h1{
-  text-align: center;
-  margin: 0;
-  padding-bottom: 50px
- 
+ .page-intro, footer{
+  background-color: #22333B;
 }
 
-/*Header*/
-.page-intro{
-  background-color: #22333B;
-  
-  
+.page-intro h1, footer h1{
+  color: #F0D797;
 }
-.page-intro p, .page-intro h1{
-  color: beige
-}
+
   
+/*Header*/  
+
+.page-intro p{
+  color: #fff;
+  font-family: 'Elianto';
+}
+
+
+
 
 /* Navigation
 --------------------------*/
@@ -109,55 +145,82 @@ h1{
 
 
 
-/*Recent Post
+/*Recent Post + Character Post 
 -------------------------*/
-.recent-post-section{
+
+
+.post-section, .character-section{
   padding-top: 80px;
   background-color: whitesmoke;
-  
-  
-}
-.column-wrap{
   text-align: center;
 }
 
-.recent-post-link-content{
+
+.post-link-content{
   display: inline-block;
   margin: 0px 40px 40px 40px;
 }
-
-.recent-post-link-content p, 
-.recent-post-link-content h2{
-  max-width: 300px;
-  text-align: center;
+.post-link-content img{
+  width: 100%;
 }
+
+
+.post-link-content p, 
+.post-link-content h2{
+  max-width: 300px;
+  text-align: left;
+}
+
+.post-link-content p{
+  font-size: 22px;
+  
+}
+
+
+.character-section p:first-of-type{
+  font-size: 18px;
+  color: #56c9e9;
+
+}
+
 
 /*chapter section 
 --------------------------*/
-
 .chapter-section{
- 
-  color: 
+  background-color: #22333B;
+}
+
+.chapter-section h1{
+  color: #F0D797;
+}
+
+.col-wide p:first-of-type {
+  color: #56c9e9;
+  font-weight: 700;
+  font-size: 18px;
+}
+.chapter-section .col-wide{
+  text-align: left;
+
+}
+
+.chapter-section p,
+.chapter-section h2{
+  color: #fff;
 }
 
 .col-wide .btn-link{
   position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-.chapter-section .col-wide{
-   
+  bottom: 20;
+  left: 0;
 }
 
 
-
-
-/*Footer
---------------------------*/
-.contact-section{
-  background-color: green;
+.chapter-section p{
+  font-size: 22px;
 }
+
+
 
 
 
