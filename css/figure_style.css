@@ -96,6 +96,11 @@ hr{
 
  .page-intro, footer{
   background-color: #22333B;
+  /*Background with full image*/
+  /*background: url(../Images/Arrow-background.jpg);
+  background-size: cover;*/
+  /*background with scroll image*/
+  background: url(../Images/Arrow-background.jpg) repeat fixed 00px 1000px / cover;
 }
 
 .page-intro h1, footer h1{
@@ -108,6 +113,10 @@ hr{
 .page-intro p{
   color: #fff;
   font-family: 'Elianto';
+}
+
+.page-intro .background-color{
+  background: rgba(34,51,59,0.8);
 }
 
 
@@ -188,6 +197,12 @@ hr{
 --------------------------*/
 .chapter-section{
   background-color: #22333B;
+  background: url("../images/hunting-bow-background.jpg") no-repeat; 
+  background-size: cover;
+}
+
+.chapter-section .background-color{
+  background: rgba(34,51,59,0.8);
 }
 
 .chapter-section h1{
@@ -220,7 +235,17 @@ hr{
   font-size: 22px;
 }
 
+/*contact section
+-----------------------*/
 
+.contact-section{
+  text-align: center;
+}
+.contact-section a{
+  color: #F0D797;
+  text-decoration: none;
+  padding: 5px
+}
 
 
 
